@@ -2542,18 +2542,6 @@
 		position: relative;
 	}
 
-/* This is just in case I need this. */
-
-	#banner_game_cap_3 {
-		background-image: url("../../images/banner_game_cap_3.jpg");
-		background-position: center center;
-		background-color: black;
-		background-repeat: no-repeat;
-		background-size: contain;
-		height: 28em;
-		text-align: center;
-		position: relative;
-
 		#banner header {
 			position: absolute;
 			bottom: 0;
