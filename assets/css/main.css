@@ -1,6 +1,5 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
-@import url("/assets/slideshow.css")
 
 /*
 	Arcana by HTML5 UP
@@ -1828,6 +1827,13 @@
 		a:hover {
 			color: #117A65;
 			border-bottom-color: transparent;
+			/* This part I added because I wanted the links to fade into teal upon hover. */
+			letter-spacing: 1px;
+			-webkit-transition: all 0.3s ease;
+			-moz-transition: all 0.3s ease;
+			-o-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+			font-weight: bold;
 		}
 
 	strong, b {
